@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url('dist\Reddit_Mono\RedditMono-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

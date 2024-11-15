@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    
+    <br><h1 class="text-5xl text-center">Effects</h1><br>
+
+    <br><h2 class="text-3xl">Box-shadow:-</h2><br>
+
+    <div class="flex">
+        <div class="w-32 h-32 border border-rose-300 shadow-emerald-200 shadow-md mx-3"></div>
+        <div class="w-32 h-32 border border-rose-300 shadow-emerald-200 shadow-lg mx-3"></div>
+        <div class="w-32 h-32 border border-rose-300 shadow-emerald-200 shadow-xl mx-3 opacity-35"></div>
+        <div class="w-32 h-32 border border-rose-300 shadow-emerald-200 shadow-inner mx-3"></div>
+    </div>
+
+    <br><h2 class="text-3xl">Mix-blend-mode</h2><br>
+
+    <div class="flex my-5">
+        <div class="w-32 h-32 bg-rose-300 mix-blend-multiply rounded-full"></div>
+        <div class="w-32 h-32 bg-yellow-300 ms-[-30px] mix-blend-multiply rounded-full"></div>
+    </div>
+
+    <div class="flex my-5">
+        <div class="w-32 h-32 bg-rose-300 mix-blend-screen rounded-full"></div>
+        <div class="w-32 h-32 bg-yellow-300 ms-[-30px] mix-blend-screen rounded-full"></div>
+    </div>
+
+    <br><h2 class="text-3xl">Background-blend-mode</h2><br>
+
+    <div class="bg-blend-multiply" style="background: url(img/nature.jpg),rgba(0,0,0,0.7);width:100%;height:700px;background-repeat: no-repeat;background-size: cover;"></div>
+    <div class="bg-blend-darken" style="background: url(img/nature.jpg),rgba(0,0,0,0.7);width:100%;height:700px;background-repeat: no-repeat;background-size: cover;"></div>
+    <div class="bg-blend-difference" style="background: url(img/nature.jpg),rgba(0,0,0,0.7);width:100%;height:700px;background-repeat: no-repeat;background-size: cover;"></div>
+    <div class="bg-blend-color-burn" style="background: url(img/nature.jpg),rgba(0,0,0,0.7);width:100%;height:700px;background-repeat: no-repeat;background-size: cover;"></div>
+
+    <br><h2 class="text-3xl">Filter</h2><br>
+
+    <div class="flex flex-wrap">
+        <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" class="blur-sm hover:blur-0 transition-all">
+
+        <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" 
+        class="brightness-75 hover:brightness-125">
+
+        <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" 
+        class="contrast-75 hover:contrast-50">
+
+        <!-- <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" 
+        class="drop-shadow-md"> -->
+
+        <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" 
+        class="grayscale hover:grayscale-0">
+
+        <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" 
+        class="hue-rotate-180 hover:hue-rotate-15">
+
+        <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" 
+        class="invert hover:invert-0">
+
+        <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" 
+        class="saturate-200 hover:saturate-0">
+
+        <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" 
+        class="sepia hover:sepia-0">
+
+        <img src="img/nature2.avif" alt="nature2" title="nature2" width="300px" 
+        class="sepia hover:sepia-0">
+
+        <div class="relative">
+            <div class="backdrop-blur-sm absolute top-0 start-0 w-32 h-32"></div>
+            <img src="img/nature2.avif" class="w-96 h-96"/>
+        </div>
+
+        <div class="relative">
+            <div class="backdrop-brightness-50 absolute top-0 start-0 w-32 h-32"></div>
+            <img src="img/nature2.avif" class="w-96 h-96"/>
+        </div>
+
+        <div class="relative">
+            <div class="backdrop-contrast-200 absolute top-0 start-0 w-32 h-32"></div>
+            <img src="img/nature2.avif" class="w-96 h-96"/>
+        </div>
+
+        <div class="relative">
+            <div class="backdrop-grayscale absolute top-0 start-0 w-32 h-32"></div>
+            <img src="img/nature2.avif" class="w-96 h-96"/>
+        </div>
+
+        <div class="relative">
+            <div class="backdrop-hue-rotate-90 absolute top-0 start-0 w-32 h-32"></div>
+            <img src="img/nature2.avif" class="w-96 h-96"/>
+        </div>
+
+        <div class="relative">
+            <div class="backdrop-invert absolute top-0 start-0 w-32 h-32"></div>
+            <img src="img/nature2.avif" class="w-96 h-96"/>
+        </div>
+
+        <div class="relative">
+            <div class="backdrop-opacity-70 absolute top-0 start-0 w-32 h-32"></div>
+            <img src="img/nature2.avif" class="w-96 h-96"/>
+        </div>
+
+        <div class="relative">
+            <div class="backdrop-saturate-50 absolute top-0 start-0 w-32 h-32"></div>
+            <img src="img/nature2.avif" class="w-96 h-96"/>
+        </div>
+
+        <div class="relative">
+            <div class="backdrop-sepia absolute top-0 start-0 w-32 h-32"></div>
+            <img src="img/nature2.avif" class="w-96 h-96"/>
+        </div>
+    
+    </div>
+
+</body>
+</html>
